@@ -1,0 +1,20 @@
+{
+    "name": "vendor/leitor-enel",
+    "description": "Leitura da Fatura da Enel",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\LeitorEnel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dorgivalsilva2016",
+            "email": "dorgival.silva@ifms.edu.br"
+        }
+    ],
+    "require": {
+        "smalot/pdfparser": "^2.3",
+        "dompdf/dompdf": "^2.0"
+    }
+}
